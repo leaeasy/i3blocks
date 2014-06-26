@@ -16,7 +16,7 @@ It handles clicks, signals and user scripts.
     Specifies an alternate configuration file path. By default, i3blocks looks 
     for configuration files in the following order:
 
-        1. ~/.i3blocks.conf
+        1. ~/.i3/i3blocks.conf
         2. /etc/i3blocks.conf or /usr/local/etc/i3blocks.conf
 
   * `-d` <scriptsdir>:

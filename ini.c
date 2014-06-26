@@ -224,7 +224,7 @@ ini_load_status_line(const char *inifile)
 
 	/* user config file? */
 	if (home) {
-		snprintf(buf, PATH_MAX, "%s/.i3blocks.conf", home);
+		snprintf(buf, PATH_MAX, "%s/.i3/i3blocks.conf", home);
 		debug("try $HOME config %s", buf);
 		fp = fopen(buf, "r");
 		if (fp)
